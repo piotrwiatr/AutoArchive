@@ -111,5 +111,5 @@ class ChatGPT():
 
 # dirNames = ['C://Users/Documents', 'C://Users/Downloads',
 #            'C://Users/Documents/Math', 'C://Users/Documents/English']
-#content = "According to the fundamnetal theorem of calculus, the area under a curve with respect to two endpoints can be written as the anti-derivative evalued at the left endpoint minus the anti-derivative evaluated at the right endpoint"
+#content = "According to the fundamnetal theorem of calculus, the area under a curve with respect to two endpoints can be written as the anti-derivative evalued at the right endpoint minus the anti-derivative evaluated at the left endpoint"
 #print(thing.request(dirNames, content))
