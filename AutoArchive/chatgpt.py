@@ -1,7 +1,6 @@
 import openai
 import json
 import string
-# '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'
 
 
 class GPTError(Exception):
@@ -9,7 +8,7 @@ class GPTError(Exception):
 
 
 class ChatGPT():
-    def __init__(self, apiKey='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', keys=["fileName", "location", "unsure"]):
+    def __init__(self, apiKey, keys=["fileName", "location", "unsure"]):
         '''
         chatGPT file rename/relocate module
         arguments:
